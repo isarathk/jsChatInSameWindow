@@ -1,0 +1,41 @@
+.sendBtn1,
+.sendBtn2 {
+    background-color: green;
+    height: 40px;
+    width: 40px;
+    display: table-cell;
+    align-content: center;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+.message1,
+.message2 {
+    display: table-cell;
+    height: 40px;
+    border: none;
+    width: 90%;
+}
+
+.container {
+    display: table;
+    border: 1px solid;
+    padding: 5px;
+    width: 400px;
+    float: left;
+}
+
+.messageS1,
+.messageS2 {
+    border: 1px solid;
+    height: 300px;
+    width: 406px;
+    margin-bottom: 10px;
+    overflow: scroll;
+    scroll-behavior: auto;
+}
+
+.fa {
+    font-size: 18px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Message Box</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="messageS1" id="messageS1"></div>
+        <form onsubmit="sendMessage1()" id="chatForm1">
+            <input type="text" name="message1" id="message1" class="message1">
+            <button class="sendBtn1"><i class="fa fa-send-o"></i></button>
+        </form>
+    </div>
+
+
+    <div class="container">
+        <div class="messageS2" id="messageS2"></div>
+
+        <form onsubmit="sendMessage2()" id="chatForm2">
+            <input type="text" name="message2" id="message2" class="message2">
+            <button class="sendBtn2"><i class="fa fa-send-o"></i></button>
+        </form>
+    </div>
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
